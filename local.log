@@ -1,0 +1,1445 @@
+2020-02-04 00:00:04.959  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:41, serverValue:107157}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 00:00:05.262  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:43, serverValue:108661}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 00:00:05.263  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:42, serverValue:106850}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 00:20:46.172  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:44, serverValue:106850}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 00:20:46.179  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:45, serverValue:104147}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 00:20:46.196  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:46, serverValue:116391}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 00:21:16.123  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:47, serverValue:116391}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 00:21:16.130  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:48, serverValue:106850}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 00:21:16.132  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:49, serverValue:111027}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 00:42:06.820  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:50, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 00:42:06.840  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:52, serverValue:104147}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 00:42:06.841  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:51, serverValue:108661}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 00:42:36.784  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:55, serverValue:106850}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 00:42:36.784  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:53, serverValue:108661}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 00:42:36.785  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:54, serverValue:111027}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 01:03:18.135  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:58, serverValue:107157}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 01:03:18.151  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:56, serverValue:117575}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 01:03:18.161  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:57, serverValue:104541}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 01:03:48.100  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:60, serverValue:104541}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 01:03:48.100  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:59, serverValue:108661}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 01:03:48.132  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:61, serverValue:107157}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 01:24:39.817  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:62, serverValue:107157}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 01:24:39.820  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:63, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 01:24:39.840  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:64, serverValue:117575}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 01:25:09.468  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:66, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 01:25:09.483  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:65, serverValue:117575}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 01:25:09.767  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:67, serverValue:107157}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 01:31:30.131  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:68, serverValue:116391}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 01:31:30.170  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:70, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 01:31:30.182  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:69, serverValue:104147}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 01:31:58.824  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:72, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 01:31:58.868  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:71, serverValue:121793}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 01:32:00.108  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:73, serverValue:104147}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 01:52:51.567  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:75, serverValue:118167}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 01:52:51.604  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:76, serverValue:107157}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 01:52:51.604  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:74, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 01:53:20.350  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:78, serverValue:104541}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 01:53:20.371  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:77, serverValue:121793}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 01:53:21.563  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:79, serverValue:104147}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 02:14:03.166  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:82, serverValue:118167}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 02:14:03.172  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:81, serverValue:104147}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 02:14:03.174  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:80, serverValue:106850}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 02:14:33.191  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:83, serverValue:104147}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 02:14:41.872  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:84, serverValue:106850}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 02:14:41.875  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:85, serverValue:118167}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 02:35:23.719  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:88, serverValue:106850}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 02:35:23.745  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:87, serverValue:117575}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 02:35:23.748  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:86, serverValue:121728}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 02:35:52.514  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:90, serverValue:117575}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 02:35:52.535  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:89, serverValue:106850}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 02:35:53.712  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:91, serverValue:121728}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 02:56:33.365  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:92, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 02:56:33.399  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:93, serverValue:104147}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 02:56:33.400  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:94, serverValue:88966}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 02:57:03.336  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:95, serverValue:104147}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 02:57:12.350  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:97, serverValue:88966}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 03:17:40.432  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:96, serverValue:106850}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 03:17:54.273  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:100, serverValue:106850}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 03:17:54.308  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:98, serverValue:121728}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 03:17:54.308  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:99, serverValue:123623}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 03:18:22.731  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:101, serverValue:116391}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 03:18:24.260  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:102, serverValue:121728}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 03:39:01.155  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:103, serverValue:121728}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 03:39:01.189  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:104, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 03:39:01.193  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:105, serverValue:116391}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 03:39:31.242  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:106, serverValue:107157}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 03:39:37.117  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:107, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 03:39:40.390  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:108, serverValue:118167}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 04:00:22.495  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:109, serverValue:104147}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 04:00:22.495  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:110, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 04:00:22.823  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:111, serverValue:118167}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 04:00:48.471  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:112, serverValue:106850}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 04:00:51.824  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:113, serverValue:121793}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 04:00:52.451  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:114, serverValue:121728}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 04:21:33.149  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:116, serverValue:104147}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 04:21:33.150  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:117, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 04:21:33.156  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:115, serverValue:88966}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 04:22:03.097  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:118, serverValue:104147}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 04:22:08.057  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:119, serverValue:106850}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 04:22:12.322  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:120, serverValue:121793}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 04:42:50.886  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:121, serverValue:107157}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 04:42:50.911  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:123, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 04:42:50.911  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:122, serverValue:121793}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 04:43:16.110  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:124, serverValue:106850}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 04:43:19.931  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:125, serverValue:118167}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 04:43:20.531  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:126, serverValue:107157}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 05:03:53.609  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:127, serverValue:121728}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 05:04:02.122  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:129, serverValue:121728}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 05:04:02.161  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:128, serverValue:121793}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 05:04:02.172  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:130, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 05:04:36.639  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:131, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 05:04:41.313  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:132, serverValue:123623}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 05:25:23.919  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:134, serverValue:107157}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 05:25:23.925  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:135, serverValue:116391}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 05:25:23.925  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:133, serverValue:104541}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 05:25:49.140  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:136, serverValue:104541}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 05:25:52.976  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:137, serverValue:116391}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 05:25:56.019  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:138, serverValue:107157}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 05:46:31.791  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:139, serverValue:121728}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 05:46:31.798  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:140, serverValue:118167}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 05:46:31.799  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:141, serverValue:104541}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 05:47:03.273  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:142, serverValue:104147}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 05:47:06.305  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:143, serverValue:104541}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 05:47:11.223  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:144, serverValue:118167}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 05:57:04.269  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:147, serverValue:121793}] to fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+2020-02-04 05:57:04.279  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:145, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 05:57:04.279  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:146, serverValue:121728}] to fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+2020-02-04 05:57:29.542  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:148, serverValue:111657}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+2020-02-04 07:04:58.215  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:04:58.216  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:05:07.019  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:05:07.019  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:05:07.020  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:05:19.682  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:06:17.060  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:06:19.729  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:10:11.999  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:10:20.732  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:14:50.137  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:14:58.853  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:15:38.867  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:15:40.146  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:15:50.155  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:15:58.883  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:16:18.890  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:16:20.179  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:16:50.199  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:16:58.911  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:31:34.178  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:31:35.484  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:41:24.444  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:41:34.012  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:42:04.025  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 07:42:04.462  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:15:51.018  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:15:51.124  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:30:43.032  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:30:43.035  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:43:34.002  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:43:34.012  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:43:34.014  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:884) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:43:44.011  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:43:45.148  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:884) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:43:45.148  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:43:54.029  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:43:54.030  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:44:24.025  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:44:24.026  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:44:24.043  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:44:24.044  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:44:25.163  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:44:25.163  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:44:34.027  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:44:34.028  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:44:35.167  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:44:35.167  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:884) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:44:44.052  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:44:44.053  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-01-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-01-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-01-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:44:45.173  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:44:45.173  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:45:05.181  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:884) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:45:05.181  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:45:15.184  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:45:15.185  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:45:25.185  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:45:25.186  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:45:35.189  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:45:35.189  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:46:15.202  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:46:15.203  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:46:35.218  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:46:35.219  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:46:44.092  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:46:45.222  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:884) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:46:45.222  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:46:54.044  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-00-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-00-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-00-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:56:56.005  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:56:56.012  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:57:06.017  INFO 10807 --- [cluster-ClusterId{value='5e3897da3bb32e67f5db2a09', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1499) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:849) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
+2020-02-04 08:57:06.020  INFO 10807 --- [cluster-ClusterId{value='5e3897db3bb32e67f5db2a0a', description='null'}-fdm05-06-shard-00-02-t1f4g.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
+
+com.mongodb.MongoSocketException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.openAsync(NettyStream.java:109) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.open(NettyStream.java:103) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.net.UnknownHostException: fdm05-06-shard-00-02-t1f4g.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:798) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1489) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1348) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1282) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 5 common frames omitted
+
