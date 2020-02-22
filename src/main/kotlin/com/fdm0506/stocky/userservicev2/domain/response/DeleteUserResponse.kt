@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.annotation.JsonPropertyDescription
 import lombok.AllArgsConstructor
 import lombok.Data
-import org.bson.types.ObjectId
 
 @Data
 @AllArgsConstructor
@@ -14,4 +13,4 @@ data class DeleteUserResponse(@JsonProperty("outcome")
 
                               @JsonProperty("user")
                               @JsonPropertyDescription("user object")
-                              val _id: ObjectId?)
+                              val _id: String)

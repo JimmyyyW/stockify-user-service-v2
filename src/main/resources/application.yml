@@ -12,3 +12,6 @@ server:
 logging:
   file:
     name: local.log
+
+global-config:
+  host: http://localhost:5000

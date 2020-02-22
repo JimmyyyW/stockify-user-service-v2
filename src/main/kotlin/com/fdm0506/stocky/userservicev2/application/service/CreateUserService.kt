@@ -17,8 +17,8 @@ class CreateUserService(private val saveUserPort: SaveUserPort) : CreateUserUseC
         try {
             saveUserPort.saveNewUser(command.user)
         } catch (e: GeneralPortException) {
-            return Mono.just(CreateUserResponse("failure", command.user.block()))
+            return Mono.just(CreateUserResponse("failure", command.user.block()!!))
         }
-        return Mono.just(CreateUserResponse("success", command.user.block()))
+        return Mono.just(CreateUserResponse("success", command.user.block()!!))
     }
 }

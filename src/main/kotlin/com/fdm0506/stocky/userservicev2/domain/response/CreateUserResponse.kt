@@ -7,10 +7,10 @@ import com.fdm0506.stocky.userservicev2.domain.model.User
 data class CreateUserResponse(
         @JsonProperty("outcome")
         @JsonPropertyDescription("result of user registration attempt")
-        val outcome: String?,
+        val outcome: String,
 
         @JsonProperty("user")
         @JsonPropertyDescription("user object")
-        val user: User?
+        val user: User
 )
 
