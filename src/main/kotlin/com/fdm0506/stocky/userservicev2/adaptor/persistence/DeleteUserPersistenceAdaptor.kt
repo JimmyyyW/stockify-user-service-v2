@@ -14,8 +14,8 @@ class DeleteUserPersistenceAdaptor(private val rxUserRepository: RxUserRepositor
         return try {
             rxUserRepository.deleteById(_id.block().toString())
             Mono.just(DeleteUserResponse(outcome = "success", _id = _id.block()))
+
         } catch (e: PersistUserException) {
-            //TODO: log here
             println("failed to delete user from database")
             Mono.just(DeleteUserResponse(outcome = "failure", _id = _id.block()))
         }

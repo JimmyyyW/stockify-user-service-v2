@@ -27,15 +27,6 @@ internal class CreateUserServiceTest {
             true,
             LocalDateTime.now())
 
-    @BeforeEach
-    fun setUp() {
-        unit = CreateUserService(port)
-    }
-
-    @AfterEach
-    fun tearDown() {
-
-    }
     //given_when_then
     @Test
     fun validCreateUserCommand_portCalledByService_ReturnsSuccess() {
