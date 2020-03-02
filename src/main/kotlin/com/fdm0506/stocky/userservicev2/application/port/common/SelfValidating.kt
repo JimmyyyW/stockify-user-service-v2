@@ -13,7 +13,7 @@ abstract class SelfValidating<T> {
 
     @Throws(ConstraintViolationException::class)
     protected fun validateSelf() {
-        var violations: Set<ConstraintViolation<T>>? = validator.validate(this as? T)
+        val violations: Set<ConstraintViolation<T>>? = validator.validate(this as? T)
         if (violations != null) {
             if (violations.isNotEmpty()) {
                 throw ConstraintViolationException(violations)

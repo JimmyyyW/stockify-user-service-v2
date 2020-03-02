@@ -1,6 +1,5 @@
 package com.fdm0506.stocky.userservicev2.adaptor.web
 
-import com.fdm0506.stocky.userservicev2.application.port.`in`.CreateUserUseCase
 import com.fdm0506.stocky.userservicev2.application.port.`in`.DeleteUserUseCase
 import org.bson.types.ObjectId
 import org.junit.jupiter.api.Assertions.*

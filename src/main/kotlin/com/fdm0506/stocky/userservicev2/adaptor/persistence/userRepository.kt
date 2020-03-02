@@ -10,11 +10,20 @@ import reactor.core.publisher.Mono
 
 @Repository
 interface UserRepository : MongoRepository<User, String> {
+    fun deleteAllByUsername(username: String)
+
+    fun existsByUsername(username: String): Boolean
+
+    fun existsByEmail(email: String): Boolean
 }
 
 @Repository
 interface RxUserRepository : ReactiveMongoRepository<User, String> {
 
     fun findByNameRegex(regex: String?): Flux<User>
+
+    fun findByUsername(username: String): Mono<User>
+
+    fun deleteAllByUsername(username: String)
 }
 

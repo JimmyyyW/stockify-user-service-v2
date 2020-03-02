@@ -7,13 +7,14 @@ import org.springframework.stereotype.Component
 import reactor.core.publisher.Mono
 
 @Component
-class CreateUserPersistenceAdaptor(val userRepository: UserRepository) : SaveUserPort {
+class CreateUserPersistenceAdaptor(val rxUserRepository: RxUserRepository) : SaveUserPort {
 
     override fun saveNewUser(user: Mono<User>) {
         try {
-            user.block()?.let { userRepository.save(it) }
+            user.flatMap { rxUserRepository.save(it) }
+                    .subscribe() //TODO: Log here + FIND OUT WHY RX repo not working
         } catch (e: PersistUserException) {
-            println(e.message)
+            println(e.message) //TODO log here
         }
     }
 }

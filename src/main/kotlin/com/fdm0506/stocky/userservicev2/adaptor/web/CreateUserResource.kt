@@ -3,6 +3,7 @@ package com.fdm0506.stocky.userservicev2.adaptor.web
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.annotation.JsonPropertyDescription
 import com.fdm0506.stocky.userservicev2.application.port.`in`.CreateUserUseCase
+import com.fdm0506.stocky.userservicev2.bCryptPasswordEncoder
 import com.fdm0506.stocky.userservicev2.domain.model.User
 import lombok.Data
 import lombok.RequiredArgsConstructor
@@ -41,6 +42,6 @@ data class CreateUserResource(@Pattern(regexp = "^(?=.*[0-9])(?=.*[a-zA-Z])([a-z
 
     fun toCommand(): CreateUserUseCase.CreateUserCommand {
         return CreateUserUseCase.CreateUserCommand(
-                Mono.just(User(ObjectId(), this.name, this.username, this.password, this.email)))
+                Mono.just(User(ObjectId(), this.name, this.username, bCryptPasswordEncoder().encode(this.password), this.email)))
     }
 }

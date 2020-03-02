@@ -8,9 +8,19 @@ import lombok.Data
 @Data
 @AllArgsConstructor
 data class DeleteUserResponse(@JsonProperty("outcome")
-                              @JsonPropertyDescription("result of user registration attempt")
+                              @JsonPropertyDescription("result of user deletion attempt")
                               val outcome: String?,
 
                               @JsonProperty("user")
                               @JsonPropertyDescription("user object")
                               val _id: String)
+
+@Data
+@AllArgsConstructor
+data class DeleteAllUserByUsernameResponse(@JsonProperty("outcome")
+                                           @JsonPropertyDescription("result of user deletion attempt")
+                                           val outcome: String?,
+
+                                           @JsonProperty("username")
+                                           @JsonPropertyDescription("username deleted")
+                                           val username: String)

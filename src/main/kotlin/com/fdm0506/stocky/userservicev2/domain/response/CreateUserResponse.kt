@@ -9,8 +9,12 @@ data class CreateUserResponse(
         @JsonPropertyDescription("result of user registration attempt")
         val outcome: String,
 
+        @JsonProperty("description")
+        @JsonPropertyDescription("extra information regarding state of user creation attempt")
+        val description: String,
+
         @JsonProperty("user")
         @JsonPropertyDescription("user object")
-        val user: User
+        val user: User?
 )
 

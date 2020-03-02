@@ -16,3 +16,11 @@ class DeleteUserResource {
         return DeleteUserUseCase.DeleteUserCommand(Mono.just(_id))
     }
 }
+
+@Data
+@RequiredArgsConstructor
+class DeleteUserByUsernameResource {
+    fun toCommand(username: String): DeleteUserUseCase.DeleteUserByUsernameCommand {
+        return DeleteUserUseCase.DeleteUserByUsernameCommand(Mono.just(username))
+    }
+}

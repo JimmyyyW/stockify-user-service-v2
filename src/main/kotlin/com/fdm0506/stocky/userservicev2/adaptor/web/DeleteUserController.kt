@@ -1,6 +1,7 @@
 package com.fdm0506.stocky.userservicev2.adaptor.web
 
 import com.fdm0506.stocky.userservicev2.application.port.`in`.DeleteUserUseCase
+import com.fdm0506.stocky.userservicev2.domain.response.DeleteAllUserByUsernameResponse
 import com.fdm0506.stocky.userservicev2.domain.response.DeleteUserResponse
 import org.bson.types.ObjectId
 import org.springframework.beans.factory.annotation.Autowired
@@ -19,7 +20,12 @@ import javax.validation.Valid
 class DeleteUserController(private val deleteUserUseCase: DeleteUserUseCase) {
 
     @DeleteMapping(value = ["v2/user/delete/{user_id}"], produces = [MediaType.APPLICATION_STREAM_JSON_VALUE])
-    fun createNewUser(@RequestBody @Valid @Validated deleteUserResource: DeleteUserResource, @PathVariable user_id: String) : Mono<DeleteUserResponse> {
+    fun deleteUserById(@RequestBody @Valid @Validated deleteUserResource: DeleteUserResource, @PathVariable user_id: String) : Mono<DeleteUserResponse> {
         return deleteUserUseCase.deleteUser(deleteUserResource.toCommand((ObjectId(user_id))))
+    }
+
+    @DeleteMapping(value = ["v2/user/delete/username/{username}"], produces = [MediaType.APPLICATION_STREAM_JSON_VALUE])
+    fun deleteUserByUsername(@RequestBody @Valid @Validated deleteUserResource: DeleteUserByUsernameResource, @PathVariable username: String) : Mono<DeleteAllUserByUsernameResponse> {
+        return deleteUserUseCase.deleteUserByUsername(deleteUserResource.toCommand(username))
     }
 }
