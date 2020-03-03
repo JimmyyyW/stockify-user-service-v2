@@ -8,7 +8,7 @@ import reactor.core.publisher.Mono
 
 @Component
 class FindUserPersistenceAdaptor(val rxUserRepository: RxUserRepository,
-                                 val userRepository: UserRepository): FindUserPort {
+                                 val userRepository: UserRepository) : FindUserPort {
 
     override fun findAllUsers(): Flux<User> {
         return rxUserRepository.findAll()
@@ -27,6 +27,6 @@ class FindUserPersistenceAdaptor(val rxUserRepository: RxUserRepository,
     }
 
     override fun findUserByNameRegex(regex: String?): Flux<User> {
-       return rxUserRepository.findByNameRegex(regex)
+        return rxUserRepository.findByNameRegex(regex)
     }
 }

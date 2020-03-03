@@ -12,9 +12,9 @@ import javax.validation.constraints.NotEmpty
 @Component
 interface CreateUserUseCase {
 
-    fun createUser(command: CreateUserCommand) : Mono<CreateUserResponse>
+    fun createUser(command: CreateUserCommand): Mono<CreateUserResponse>
 
-    fun checkUsernameEmailAvailable(username: String, email: String) : Boolean
+    fun checkUsernameEmailAvailable(username: String, email: String): Boolean
 
     @Getter
     class CreateUserCommand @JsonCreator constructor(@field:NotEmpty val user: Mono<User>) : SelfValidating<CreateUserCommand>()

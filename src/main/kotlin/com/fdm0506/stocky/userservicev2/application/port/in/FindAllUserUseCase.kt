@@ -9,10 +9,10 @@ import reactor.core.publisher.Flux
 @Component
 interface FindAllUserUseCase {
 
-    fun findAllUsers(command: FindAllUserCommand) : Flux<User>
+    fun findAllUsers(command: FindAllUserCommand): Flux<User>
 
-    fun findAllUsersBySearch(command: FindAllUserCommand) : Flux<User>
+    fun findAllUsersBySearch(command: FindAllUserCommand): Flux<User>
 
     @Getter
-    class FindAllUserCommand(val search: String?): SelfValidating<FindAllUserCommand>()
+    class FindAllUserCommand(val search: String?) : SelfValidating<FindAllUserCommand>()
 }

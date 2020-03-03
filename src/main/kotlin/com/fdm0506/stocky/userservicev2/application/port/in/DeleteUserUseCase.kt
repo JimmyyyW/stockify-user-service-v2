@@ -14,9 +14,9 @@ import javax.validation.constraints.NotEmpty
 @Component
 interface DeleteUserUseCase {
 
-    fun deleteUser(command: DeleteUserCommand) : Mono<DeleteUserResponse>
+    fun deleteUser(command: DeleteUserCommand): Mono<DeleteUserResponse>
 
-    fun deleteUserByUsername(command: DeleteUserByUsernameCommand) : Mono<DeleteAllUserByUsernameResponse>
+    fun deleteUserByUsername(command: DeleteUserByUsernameCommand): Mono<DeleteAllUserByUsernameResponse>
 
     @Getter
     class DeleteUserCommand @JsonCreator constructor(@field:NotEmpty val user: Mono<ObjectId>) : SelfValidating<DeleteUserCommand>()

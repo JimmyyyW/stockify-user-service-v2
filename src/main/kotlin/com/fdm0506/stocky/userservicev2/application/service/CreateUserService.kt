@@ -5,11 +5,9 @@ import com.fdm0506.stocky.userservicev2.application.port.`in`.CreateUserUseCase
 import com.fdm0506.stocky.userservicev2.application.port.`in`.CreateUserUseCase.CreateUserCommand
 import com.fdm0506.stocky.userservicev2.application.port.out.FindUserPort
 import com.fdm0506.stocky.userservicev2.application.port.out.SaveUserPort
-import com.fdm0506.stocky.userservicev2.domain.model.User
 import com.fdm0506.stocky.userservicev2.domain.response.CreateUserResponse
 import lombok.RequiredArgsConstructor
 import org.springframework.stereotype.Service
-import reactor.core.Disposable
 import reactor.core.publisher.Mono
 
 @Service
@@ -17,7 +15,7 @@ import reactor.core.publisher.Mono
 class CreateUserService(private val saveUserPort: SaveUserPort,
                         private val findUserPort: FindUserPort) : CreateUserUseCase {
 
-    override fun createUser(command: CreateUserCommand) : Mono<CreateUserResponse> {
+    override fun createUser(command: CreateUserCommand): Mono<CreateUserResponse> {
         try {
             saveUserPort.saveNewUser(command.user)
         } catch (e: GeneralPortException) {

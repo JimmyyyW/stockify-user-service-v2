@@ -20,7 +20,6 @@ class ChangeBalanceRestController (val reduceBalanceUseCase: ReduceBalanceUseCas
     fun decreaseBalance(@RequestBody @Valid changeBalanceRequestResource: ChangeBalanceRequestResource)
             : Mono<ChangeBalanceResponse> {
         //load user into context
-
         return reduceBalanceUseCase.reduceBalance(changeBalanceRequestResource.toReduceCommand())
     }
 

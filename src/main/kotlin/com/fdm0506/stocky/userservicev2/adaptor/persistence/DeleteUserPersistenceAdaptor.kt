@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono
 
 @Component
 class DeleteUserPersistenceAdaptor(private val rxUserRepository: RxUserRepository,
-                                   private val userRepository: UserRepository): DeleteUserPort {
+                                   private val userRepository: UserRepository) : DeleteUserPort {
     override fun deleteUser(_id: Mono<ObjectId>): Mono<DeleteUserResponse> {
         return try {
             val idString: String = _id.block().toString()
