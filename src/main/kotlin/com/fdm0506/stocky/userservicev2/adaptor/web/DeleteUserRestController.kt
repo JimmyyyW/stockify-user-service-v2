@@ -26,6 +26,6 @@ class DeleteUserRestController(private val deleteUserUseCase: DeleteUserUseCase)
 
     @DeleteMapping(value = ["v2/user/delete/username/{username}"], produces = [MediaType.APPLICATION_STREAM_JSON_VALUE])
     fun deleteUserByUsername(@RequestBody @Valid @Validated deleteUserResource: DeleteUserByUsernameResource, @PathVariable username: String) : Mono<DeleteAllUserByUsernameResponse> {
-        return deleteUserUseCase.deleteUserByUsername(deleteUserResource.toCommand(username)).log()
+        return deleteUserUseCase.deleteUserByUsername(deleteUserResource.toCommand(username))
     }
 }

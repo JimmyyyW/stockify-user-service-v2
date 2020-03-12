@@ -28,6 +28,5 @@ class CreateUserRestController(val createUserUseCase: CreateUserUseCase,
             createUserResponseMono = Mono.just(CreateUserResponse("failure", "username or email already exists", null))
         }
         return createUserResponseMono
-
     }
 }

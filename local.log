@@ -2949,3 +2949,5 @@ Stack trace:
 
 2020-03-12 16:41:19.394  INFO 82557 --- [reactor-http-nio-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:604064}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017
 2020-03-12 16:41:36.762  INFO 82557 --- [nioEventLoopGroup-2-4] c.f.s.u.a.p.CreateUserPersistenceAdaptor : new user created: User(_id=5e6a664045d4585df41c231f, name=jamessd, username=Jaass2a, password=$2a$10$pXFybSfCQMwh0fr1k1x7ieiaWyuvPkt2DGtq/7jZUPmon08lI0N3C, email=jiesald@live.co.uk, balance=500.00, enabled=false, timeStamp=2020-03-12T16:41:36.671974, roles=[Role(_id=5dd937401c9d440000fce615, role=MEMBER)])
+2020-03-12 17:20:19.943  INFO 82557 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:8, serverValue:604064}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017 because the pool has been closed.
+2020-03-12 17:20:19.973  INFO 82557 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:7, serverValue:569782}] to fdm05-06-shard-00-02-t1f4g.mongodb.net:27017 because the pool has been closed.
