@@ -7,7 +7,7 @@ import mu.KotlinLogging
 import org.springframework.stereotype.Component
 import reactor.core.publisher.Mono
 
-private val logger = KotlinLogging.logger {}
+private val logger = KotlinLogging.logger { }
 
 @Component
 class CreateUserPersistenceAdaptor(val rxUserRepository: RxUserRepository) : SaveUserPort {

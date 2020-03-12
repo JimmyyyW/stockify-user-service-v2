@@ -11,8 +11,9 @@ import reactor.core.publisher.Mono
 @Service
 @AllArgsConstructor
 class DeleteUserService(val deleteUserPort: DeleteUserPort) : DeleteUserUseCase {
+
     override fun deleteUser(command: DeleteUserUseCase.DeleteUserCommand): Mono<DeleteUserResponse> {
-        return deleteUserPort.deleteUser(command.user)
+        return deleteUserPort.deleteUserRx(command.user)
     }
 
     override fun deleteUserByUsername(command: DeleteUserUseCase.DeleteUserByUsernameCommand): Mono<DeleteAllUserByUsernameResponse> {
