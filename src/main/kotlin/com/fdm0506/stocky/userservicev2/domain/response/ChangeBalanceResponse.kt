@@ -2,7 +2,6 @@ package com.fdm0506.stocky.userservicev2.domain.response
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.annotation.JsonPropertyDescription
-import com.fdm0506.stocky.userservicev2.domain.model.BalanceRequestType
 import lombok.AllArgsConstructor
 import lombok.Data
 import org.bson.types.Decimal128
@@ -16,13 +15,13 @@ data class ChangeBalanceResponse(
 
         @JsonProperty("balance")
         @JsonPropertyDescription("balance after transaction")
-        val balance: Decimal128,
+        val balance: Decimal128
 
-        @JsonProperty("type")
-        @JsonPropertyDescription("whether payment was in or out")
-        val type: BalanceRequestType,
+//        @JsonProperty("type")
+//        @JsonPropertyDescription("whether payment was in or out")
+//        val type: BalanceRequestType,
 
-        @JsonProperty("amount")
-        @JsonPropertyDescription("value of transaction")
-        val amount: Decimal128?
+//        @JsonProperty("amount")
+//        @JsonPropertyDescription("value of transaction")
+//        val amount: Decimal128?
 )

@@ -12,6 +12,6 @@ import reactor.core.publisher.Mono
 class IncreaseBalanceService(val changeBalancePort: ChangeBalancePort): IncreaseBalanceUseCase {
 
     override fun increaseBalance(command: IncreaseBalanceUseCase.IncreaseBalanceCommand): Mono<ChangeBalanceResponse> {
-        return Mono.empty()
+        return changeBalancePort.increaseBalance(command.user)
     }
 }

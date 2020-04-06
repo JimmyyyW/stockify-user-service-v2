@@ -28,6 +28,8 @@ interface RxUserRepository : ReactiveMongoRepository<User, String> {
 
     fun findByUsername(username: String): Mono<User>
 
+    fun findByEmail(username: String): Mono<User>
+
     fun deleteAllByUsername(username: String): Mono<DeleteAllUserByUsernameResponse>
 }
 

@@ -21,8 +21,8 @@ data class User(@Id val _id: ObjectId,
                 val username: String,
                 val password: String,
                 val email: String,
-                val balance: Decimal128? = Decimal128.parse("500.00"),
-                val enabled: Boolean? = false,
+                var balance: Decimal128? = Decimal128.parse("500.00"),
+                var enabled: Boolean? = false,
                 val timeStamp: LocalDateTime? = LocalDateTime.now(),
                 val roles: Set<Role>? = setOf(Role(ObjectId("5dd937401c9d440000fce615"), "MEMBER"))
 )

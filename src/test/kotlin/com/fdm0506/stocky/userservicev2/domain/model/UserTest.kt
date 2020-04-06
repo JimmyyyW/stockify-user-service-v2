@@ -19,33 +19,8 @@ internal class UserTest {
                 false)
 
         assertTrue(actual::class == User::class)
+        assertEquals(actual.name, "test")
+        assertEquals(actual.username, "usertest")
     }
 
-    @Test
-    fun userBuilder_ReturnsValidUserObject() {
-//        val user = User.UserBuilder()
-//                .username("username")
-//                .name("nameuser")
-//                .email("email")
-//                .balance(Decimal128.parse("500.00"))
-//                .enabled(false)
-//                .password("password")
-//                .build()
-//
-//
-//        assertEquals(user.username, "username")
-//        assertEquals(user.name, "nameuser")
-//        assertEquals(user.email, "email")
-//        assertEquals(user.balance, Decimal128.parse("500.00"))
-//        assertEquals(user.enabled, false)
-    }
-
-    @Test
-    fun userBuilder_forcesCompleteUserObject_ToBeBuilt() {
-//        val user = User.UserBuilder()
-//                .username("username")
-//                .build()
-//
-//        assertNotEquals(user.username, "username")
-    }
 }

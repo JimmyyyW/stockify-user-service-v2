@@ -1,4 +1,4 @@
-package com.fdm0506.stocky.userservicev2.Exception
+package com.fdm0506.stocky.userservicev2.exception
 
 import java.lang.Exception
 

@@ -1,9 +1,12 @@
 package com.fdm0506.stocky.userservicev2.application.service
 
+import com.fdm0506.stocky.userservicev2.adaptor.web.ActivateUserRequestResource
 import com.fdm0506.stocky.userservicev2.application.port.`in`.CreateUserUseCase
+import com.fdm0506.stocky.userservicev2.application.port.out.ActivateUserPort
 import com.fdm0506.stocky.userservicev2.application.port.out.FindUserPort
 import com.fdm0506.stocky.userservicev2.application.port.out.SaveUserPort
 import com.fdm0506.stocky.userservicev2.domain.model.User
+import com.fdm0506.stocky.userservicev2.domain.response.ActivationRequestResponse
 import com.fdm0506.stocky.userservicev2.domain.response.CreateUserResponse
 import org.bson.types.Decimal128
 import org.bson.types.ObjectId
@@ -18,7 +21,8 @@ internal class CreateUserServiceTest {
 
     private var savePort: SaveUserPort = mock(SaveUserPort::class.java)
     private var findPort: FindUserPort = mock(FindUserPort::class.java)
-    private var unit = CreateUserService(savePort, findPort)
+    private var activatePort: ActivateUserPort = mock(ActivateUserPort::class.java)
+    private var unit = CreateUserService(savePort, findPort, activatePort)
     private val user: User = User(ObjectId("5e35b230bbf34d4de013f9da"),
             "name",
             "username",

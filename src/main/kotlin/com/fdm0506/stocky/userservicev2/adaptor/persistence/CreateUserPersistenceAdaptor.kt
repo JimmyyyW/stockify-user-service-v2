@@ -1,6 +1,6 @@
 package com.fdm0506.stocky.userservicev2.adaptor.persistence
 
-import com.fdm0506.stocky.userservicev2.Exception.PersistUserException
+import com.fdm0506.stocky.userservicev2.exception.PersistUserException
 import com.fdm0506.stocky.userservicev2.application.port.out.SaveUserPort
 import com.fdm0506.stocky.userservicev2.domain.model.User
 import mu.KotlinLogging

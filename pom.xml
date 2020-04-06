@@ -47,12 +47,12 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-core</artifactId>
-            <version>5.1.6.RELEASE</version>
+            <version>5.2.2.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-crypto</artifactId>
-            <version>5.1.6.RELEASE</version>
+            <version>5.2.2.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>io.github.microutils</groupId>
@@ -79,6 +79,11 @@
             <groupId>io.projectreactor</groupId>
             <artifactId>reactor-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <version>2.2.4.RELEASE</version>
         </dependency>
     </dependencies>
 

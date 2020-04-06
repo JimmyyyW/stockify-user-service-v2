@@ -1,8 +1,6 @@
 package com.fdm0506.stocky.userservicev2.adaptor.persistence
 
-import com.fdm0506.stocky.userservicev2.Exception.PersistUserException
 import com.fdm0506.stocky.userservicev2.application.port.out.DeleteUserPort
-import com.fdm0506.stocky.userservicev2.domain.model.User
 import com.fdm0506.stocky.userservicev2.domain.response.DeleteAllUserByUsernameResponse
 import com.fdm0506.stocky.userservicev2.domain.response.DeleteUserResponse
 import mu.KotlinLogging

@@ -24,11 +24,11 @@ class EmailBuddyService(config: GlobalConfig) {
             .build()
 
     //todo: catch errors and on success & error log
-    fun sendActivationEmail(emailAddress: String): Disposable {
+    fun sendActivationEmail(emailAddress: String, userObjectId: String): Disposable {
         return webClient.post()
                 .uri("/registered")
                 .accept(MediaType.APPLICATION_JSON)
-                .body(BodyInserters.fromValue(ActivationEmailRequest(target = emailAddress)))
+                .body(BodyInserters.fromValue(ActivationEmailRequest(target = emailAddress, code = userObjectId)))
                 .retrieve()
                 .bodyToMono(ActivationEmailResponse::class.java)
                 .doOnError { err -> println(err.message + " | Check EmailBuddy running")}
@@ -49,5 +49,9 @@ data class ActivationEmailResponse(
 data class ActivationEmailRequest(
         @JsonProperty("target")
         @JsonPropertyDescription("result of attempt to send registration email")
-        val target: String
+        val target: String,
+
+        @JsonProperty("code")
+        @JsonPropertyDescription("the code to append to activation link uri")
+        val code: String
 )
