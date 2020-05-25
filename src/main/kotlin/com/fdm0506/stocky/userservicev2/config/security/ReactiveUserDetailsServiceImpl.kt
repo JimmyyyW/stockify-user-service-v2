@@ -15,7 +15,7 @@ class ReactiveUserDetailsServiceImpl(val rxUserRepository: RxUserRepository): Re
 
 
     override fun findByUsername(p0: String?): Mono<UserDetails> {
-        return rxUserRepository.findByEmail(p0!!)
+        return rxUserRepository.findByUsername(p0!!)
                 .map {
                     User.withUsername(p0).password(it.password)
                             .roles("MEMBER")

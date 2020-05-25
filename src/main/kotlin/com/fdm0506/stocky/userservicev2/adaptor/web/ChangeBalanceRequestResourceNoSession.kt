@@ -17,7 +17,7 @@ data class ChangeBalanceRequestResourceNoSession(//@Pattern(regexp = "[0-9]+")
                                         //@get:NotBlank
                                         @JsonProperty("transactionAmount")
                                         @JsonPropertyDescription("value of transaction")
-                                        val transactionAmount: Decimal128,
+                                        val transactionAmount: Number,
 
                                         @get:Pattern(regexp = "^(?=.*[0-9])(?=.*[a-zA-Z])([a-zA-Z0-9]+){6,16}\$")
                                         @get:NotBlank
@@ -50,7 +50,7 @@ data class ChangeBalanceRequestResourceWithSession(//@Pattern(regexp = "[0-9]+")
         //@get:NotBlank
         @JsonProperty("transactionAmount")
         @JsonPropertyDescription("value of transaction")
-        val transactionAmount: Decimal128
+        val transactionAmount: Number
 ) {
     fun toReduceCommand(): ReduceBalanceUseCase.ReduceBalanceCommandB {
         return ReduceBalanceUseCase.ReduceBalanceCommandB(

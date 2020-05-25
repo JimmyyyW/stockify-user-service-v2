@@ -1,6 +1,6 @@
 package com.fdm0506.stocky.userservicev2.application.service
 
-import com.fdm0506.stocky.userservicev2.application.port.`in`.FindAllUserUseCase
+import com.fdm0506.stocky.userservicev2.application.port.`in`.FindUserUseCase
 import com.fdm0506.stocky.userservicev2.application.port.out.FindUserPort
 import com.fdm0506.stocky.userservicev2.domain.model.User
 import org.bson.types.Decimal128
@@ -17,9 +17,10 @@ import java.time.LocalDateTime
 internal class FindAllUserServiceTest {
 
     private var port: FindUserPort = mock(FindUserPort::class.java)
-    private var unit = FindAllUserService(port)
+    private var unit = FindUserService(port)
     private val user: User = User(ObjectId("5e35b230bbf34d4de013f9da"),
             "name",
+            "surname",
             "username",
             "password",
             "email@email.com",
@@ -29,6 +30,7 @@ internal class FindAllUserServiceTest {
 
     private val user2: User = User(ObjectId("5e35b230bbf34d4de013f9da"),
             "name2",
+            "surname2",
             "username2",
             "password2",
             "email2@email.com",
@@ -38,7 +40,7 @@ internal class FindAllUserServiceTest {
 
     @BeforeEach
     internal fun setUp() {
-        unit = FindAllUserService(port)
+        unit = FindUserService(port)
     }
 
     @AfterEach
@@ -47,7 +49,7 @@ internal class FindAllUserServiceTest {
     //given_when_then
     @Test
     internal fun validFindAllUserCommand_portCalledByService_ReturnsSuccess() {
-        val command = FindAllUserUseCase.FindAllUserCommand(null)
+        val command = FindUserUseCase.FindAllUserCommand(null)
         Mockito.`when`(port.findAllUsers()).thenReturn(Flux.just(user, user2))
 
         val actual: Flux<User> = unit.findAllUsers(command)
@@ -71,7 +73,7 @@ internal class FindAllUserServiceTest {
 
     @Test //isolated test to verify search value can be passed
     internal fun validFindAllWithSearchUserCommand_portCalledByService_ReturnsSuccess() {
-        val command = FindAllUserUseCase.FindAllUserCommand("username2")
+        val command = FindUserUseCase.FindAllUserCommand("username2")
         //assume mongo repo acts rationally
         Mockito.`when`(port.findUserByNameRegex(command.search)).thenReturn(Flux.just(user2))
 

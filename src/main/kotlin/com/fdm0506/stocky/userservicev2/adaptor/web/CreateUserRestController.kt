@@ -16,19 +16,6 @@ import javax.validation.Valid
 class CreateUserRestController(val createUserUseCase: CreateUserUseCase,
                                val emailBuddyService: EmailBuddyService) {
 
-//    @PostMapping(value = ["api/v2/user/create"], produces = [MediaType.APPLICATION_STREAM_JSON_VALUE])
-//    fun createNewUser(@RequestBody @Valid @Validated createUserResource: CreateUserResource) : Mono<CreateUserResponse> {
-//        //check for existing username/email
-//        val createUserResponseMono: Mono<CreateUserResponse>
-//        if (createUserUseCase.checkUsernameEmailAvailable(createUserResource.username, createUserResource.email)) {
-//            createUserResponseMono = createUserUseCase.createUser(createUserResource.toCommand())
-//            emailBuddyService.sendActivationEmail(createUserResource.email) //TODO: Fix issue where
-//        } else {
-//            createUserResponseMono = Mono.just(CreateUserResponse("failure", "username or email already exists", null))
-//        }
-//        return createUserResponseMono
-//    }
-
     @PostMapping(value = ["/register"], produces = [MediaType.APPLICATION_STREAM_JSON_VALUE])
     fun registerUser(@RequestBody @Valid @Validated createUserResource: CreateUserResource) : Mono<CreateUserResponse> {
         val createUserResponseMono: Mono<CreateUserResponse>

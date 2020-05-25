@@ -20,7 +20,13 @@ data class CreateUserResource(@Pattern(regexp = "^(?=.*[0-9])(?=.*[a-zA-Z])([a-z
                          @JsonPropertyDescription("name of account user")
                          val name: String,
 
-                         @get:Pattern(regexp = "^(?=.*[0-9])(?=.*[a-zA-Z])([a-zA-Z0-9]+){6,16}\$")
+                         @Pattern(regexp = "^(?=.*[0-9])(?=.*[a-zA-Z])([a-zA-Z]+){6,16}\$")
+                         @get:NotBlank
+                         @JsonProperty("surname")
+                         @JsonPropertyDescription("name of account user")
+                         val surname: String,
+
+                         @get:Pattern(regexp = "(?=.*[a-zA-Z0-9])([a-zA-Z]+){6,16}\$")
                          @get:NotBlank
                          @JsonProperty("username")
                          @JsonPropertyDescription("alias/on screen name for account")
@@ -40,6 +46,6 @@ data class CreateUserResource(@Pattern(regexp = "^(?=.*[0-9])(?=.*[a-zA-Z])([a-z
 
     fun toCommand(): CreateUserUseCase.CreateUserCommand {
         return CreateUserUseCase.CreateUserCommand(
-                Mono.just(User(ObjectId(), this.name, this.username, bCryptPasswordEncoder().encode(this.password), this.email)))
+                Mono.just(User(ObjectId(), this.name, this.surname, this.username, bCryptPasswordEncoder().encode(this.password), this.email)))
     }
 }

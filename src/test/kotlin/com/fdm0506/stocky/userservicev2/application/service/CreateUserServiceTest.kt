@@ -25,6 +25,7 @@ internal class CreateUserServiceTest {
     private var unit = CreateUserService(savePort, findPort, activatePort)
     private val user: User = User(ObjectId("5e35b230bbf34d4de013f9da"),
             "name",
+            "surname",
             "username",
             "password",
             "email@email.com",

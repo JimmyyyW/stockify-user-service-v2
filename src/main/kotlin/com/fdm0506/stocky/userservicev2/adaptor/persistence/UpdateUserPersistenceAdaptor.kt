@@ -9,26 +9,28 @@ import org.bson.types.Decimal128
 import org.springframework.security.core.userdetails.UsernameNotFoundException
 import org.springframework.stereotype.Component
 import reactor.core.publisher.Mono
+import java.math.RoundingMode
 import java.security.Principal
+import kotlin.math.round
 
 @Component
 class UpdateUserPersistenceAdaptor(val rxUserRepository: RxUserRepository): ChangeBalancePort {
 
 
     override fun reduceBalance(changeRequest: Mono<ChangeBalanceRequestResourceWithSession>, principal: Mono<Principal>): Mono<ChangeBalanceResponse> {
-        val changeAmount: Mono<Decimal128> = changeRequest.map { it.transactionAmount }
+        val changeAmount: Mono<Number> = changeRequest.map { it.transactionAmount }
 
         val userMono: Mono<User> =
                 principal
                         .map { p -> p.name }
-                        .flatMap { username -> rxUserRepository.findByEmail(username) }
+                        .flatMap { username -> rxUserRepository.findByUsername(username) }
                         .switchIfEmpty(Mono.error(UsernameNotFoundException("username not in database")))
 
         return changeBalance(userMono, changeAmount)
     }
 
     override fun increaseBalance(changeRequestNoSession: Mono<ChangeBalanceRequestResourceNoSession>): Mono<ChangeBalanceResponse> {
-        val changeAmount: Mono<Decimal128> = changeRequestNoSession.map { it.transactionAmount }
+        val changeAmount: Mono<Number> = changeRequestNoSession.map { it.transactionAmount }
         val user: Mono<User> = changeRequestNoSession.flatMap { rxUserRepository.findByUsername(it.username) }
         return changeBalance(user, changeAmount)
     }
@@ -37,7 +39,7 @@ class UpdateUserPersistenceAdaptor(val rxUserRepository: RxUserRepository): Chan
         return Mono.empty()
     }
 
-    fun changeBalance(user : Mono<User>, amount: Mono<Decimal128>): Mono<ChangeBalanceResponse> {
+    fun changeBalance(user : Mono<User>, amount: Mono<Number>): Mono<ChangeBalanceResponse> {
         return Mono.zip(amount, user).flatMap {
             val change = it.t1
             val targetUser: User = it.t2
@@ -47,8 +49,9 @@ class UpdateUserPersistenceAdaptor(val rxUserRepository: RxUserRepository): Chan
         }
     }
 
-    fun sumBalance(user: User, num2: Decimal128): User {
-        user.balance = Decimal128(user.balance!!.bigDecimalValue() + num2.bigDecimalValue())
+    fun sumBalance(user: User, num2: Number): User {
+        user.balance = user.balance!!.toDouble() + num2.toDouble()
+        user.balance = (user.balance as Double).toBigDecimal().setScale(2, RoundingMode.HALF_EVEN)
         return user
     }
 

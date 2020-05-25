@@ -35,6 +35,7 @@ class SecurityConfig(@Autowired val service: ReactiveUserDetailsService) {
                 .pathMatchers(HttpMethod.POST, "/logout").permitAll()
                 .pathMatchers(HttpMethod.POST, "/register").permitAll()
                 .pathMatchers(HttpMethod.GET, "/api/v2/user/activate/**").permitAll()
+                .pathMatchers(HttpMethod.GET, "/api/v2/user/status/**").permitAll()
                 .anyExchange().authenticated()
                 .and()
                 .cors().configurationSource(corsConfigurationSource())
@@ -64,8 +65,9 @@ class SecurityConfig(@Autowired val service: ReactiveUserDetailsService) {
     @Bean
     fun corsConfigurationSource(): CorsConfigurationSource {
         val config = CorsConfiguration()
-        config.allowedOrigins = listOf("http://localhost:4200")
-        config.allowedMethods = listOf("GET", "PUT", "POST", "DELETE")
+        config.allowedOrigins = listOf("http://localhost:4200", "http://localhost:8081")
+        config.allowedMethods = listOf("GET", "PUT", "POST", "DELETE", "OPTIONS")
+        config.allowedHeaders = listOf("Origin, Content-Type, Authorization")
         config.allowCredentials = true
         val source = UrlBasedCorsConfigurationSource()
         source.registerCorsConfiguration("/**", config)

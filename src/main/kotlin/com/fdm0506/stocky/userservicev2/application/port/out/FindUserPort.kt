@@ -16,4 +16,6 @@ interface FindUserPort {
     fun existsByEmail(email: String): Boolean
 
     fun findUserByNameRegex(regex: String?): Flux<User>
+
+    fun findUserByUsername(username: String): Mono<User>
 }

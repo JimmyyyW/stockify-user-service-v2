@@ -12,6 +12,7 @@ internal class UserTest {
         //val roles: Set<Role> = setOf(Role(ObjectId(), "MEMBER"))
         val actual = User(ObjectId(),
                 "test",
+                "surname",
                 "usertest",
                 "password",
                 "email",

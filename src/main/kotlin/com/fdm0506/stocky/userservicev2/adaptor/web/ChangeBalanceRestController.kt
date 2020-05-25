@@ -23,6 +23,7 @@ class ChangeBalanceRestController (val reduceBalanceUseCase: ReduceBalanceUseCas
             : Mono<ChangeBalanceResponse> {
         //load user into context
         return reduceBalanceUseCase.reduceBalanceB(changeBalanceRequestResource.toReduceCommand(), principal)
+
     }
 
     @PutMapping(value = ["api/v2/user/balance/increase"])

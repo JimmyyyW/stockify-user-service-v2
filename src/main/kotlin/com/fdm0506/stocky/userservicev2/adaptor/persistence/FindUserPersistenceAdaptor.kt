@@ -29,4 +29,10 @@ class FindUserPersistenceAdaptor(val rxUserRepository: RxUserRepository,
     override fun findUserByNameRegex(regex: String?): Flux<User> {
         return rxUserRepository.findByNameRegex(regex)
     }
+
+    override fun findUserByUsername(username: String): Mono<User> {
+        return rxUserRepository.findByUsername(username)
+    }
+
+
 }

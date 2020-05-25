@@ -9,6 +9,7 @@ internal class CreateUserResourceTest {
 
     private val unit: CreateUserResource = CreateUserResource(
             "name",
+            "surname",
             "username",
             "password",
             "email"

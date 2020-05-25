@@ -15,7 +15,7 @@ data class ChangeBalanceResponse(
 
         @JsonProperty("balance")
         @JsonPropertyDescription("balance after transaction")
-        val balance: Decimal128
+        val balance: Number
 
 //        @JsonProperty("type")
 //        @JsonPropertyDescription("whether payment was in or out")
