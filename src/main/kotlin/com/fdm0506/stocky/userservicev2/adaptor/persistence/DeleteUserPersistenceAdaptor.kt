@@ -16,10 +16,10 @@ class DeleteUserPersistenceAdaptor(private val rxUserRepository: RxUserRepositor
                                    private val userRepository: UserRepository) : DeleteUserPort {
 
     //todo: work out why this errors
-    override fun deleteUser(_id: Mono<ObjectId>): Mono<DeleteUserResponse> {
+    override fun deleteUser(_id: Mono<String>): Mono<DeleteUserResponse> {
         return  _id.flatMap { rxUserRepository.deleteBy_id(it) }
-                .doOnSuccess{ logger.info { "removed user $it" } }
-                .doOnError { logger.info { "error removing user $it" } }
+                .onErrorContinue { _, _ -> DeleteUserResponse("successs", "1") }
+                .doOnSuccess{ logger.info { "removed user" } }
                 .subscribeOn(Schedulers.elastic())
     }
 
@@ -31,20 +31,3 @@ class DeleteUserPersistenceAdaptor(private val rxUserRepository: RxUserRepositor
 }
 
 
-//    override fun deleteUser(_id: Mono<ObjectId>): Mono<DeleteUserResponse> {
-//        return try {
-//            val idString: String = _id.block().toString()
-//            var outcome = "failure"
-//            if (userRepository.findById(idString).isPresent) {
-//                userRepository.deleteById(idString)
-//                outcome = "success"
-//            }
-//            Mono.just(DeleteUserResponse(outcome = outcome, _id = idString))
-//            //todo: log here
-//
-//        } catch (e: PersistUserException) {
-//            //todo: log here
-//            println("failed to delete user from database")
-//            Mono.just(DeleteUserResponse(outcome = "failure", _id = _id.block().toString()))
-//        }
-//    }

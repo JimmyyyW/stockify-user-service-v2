@@ -22,17 +22,25 @@ class CreateUserRestController(val createUserUseCase: CreateUserUseCase,
         if (createUserUseCase.checkUsernameEmailAvailable(createUserResource.username, createUserResource.email)) {
             createUserResponseMono = createUserUseCase.createUser(createUserResource.toCommand())
 
-            val activationString = createUserResponseMono.map { it.user!!._id.toHexString() }
+            val activationString = createUserResponseMono.map { it.user!!._id }
             activationString
                     .subscribe { emailBuddyService.sendActivationEmail(createUserResource.email, it) }
         } else {
             createUserResponseMono = Mono.just(CreateUserResponse("failure", "username or email already exists", null))
         }
         return createUserResponseMono
+                .onErrorMap { t ->
+                    emailBuddyService.sendErrorEmail(t.localizedMessage)
+                    Exception(t.message)
+                }
     }
 
     @GetMapping(value = ["api/v2/user/activate/{id}"], produces = [MediaType.APPLICATION_JSON_VALUE])
     fun activateUser(@PathVariable id: String): Mono<ActivationRequestResponse> {
         return createUserUseCase.activateUser(ActivateUserRequestResource(id).toActivationCommand())
+                .onErrorMap { t ->
+                    emailBuddyService.sendErrorEmail(t.localizedMessage)
+                    Exception(t.message)
+                }
     }
 }

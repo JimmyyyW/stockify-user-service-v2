@@ -12,8 +12,8 @@ internal class DeleteUserResourceTest {
 
     @Test
     fun toCommand_returnsCommand_forDeleteUserResource() {
-        val id = ObjectId("5e370047bfc495694fe1c43e")
-        val monoId: Mono<ObjectId> = Mono.just(id)
+        val id = ObjectId("5e370047bfc495694fe1c43e").toHexString()
+        val monoId: Mono<String> = Mono.just(id)
         val cmd: DeleteUserUseCase.DeleteUserCommand = unit.toCommand (id)
         assertEquals(DeleteUserUseCase.DeleteUserCommand::class.java, cmd.javaClass)
         assertEquals(monoId.block(), cmd.user.block())

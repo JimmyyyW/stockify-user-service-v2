@@ -18,6 +18,7 @@ class SharesPersistenceAdaptor (val sharesRepository: SharesRepository): UpdateS
                 sharesRepository.findByUser(username)
                         .flatMap {
                             if (it.shares[stockSymbol] != null) {
+                                println(it)
                                 val currentAmount =  it.shares[stockSymbol]
                                 val newAmount = currentAmount!!.minus(volume)
                                 if (newAmount.toDouble() >= 0) {
@@ -37,7 +38,7 @@ class SharesPersistenceAdaptor (val sharesRepository: SharesRepository): UpdateS
             TransactionType.BUY -> {
                 sharesRepository.findByUser(username)
                         .flatMap {
-
+                            println(it)
                             if (it.shares[stockSymbol] != null) {
                                 val currentAmount = it.shares[stockSymbol]
                                 val newAmount = currentAmount!! + volume

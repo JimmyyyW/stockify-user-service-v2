@@ -16,14 +16,14 @@ import javax.validation.constraints.Pattern
 
 @Document(collection = "users-v2")
 @NoArgsConstructor
-data class User(@Id val _id: ObjectId,
-                val name: String,
-                val surname: String,
+data class User(@Id val _id: String,
+                var name: String,
+                var surname: String,
                 val username: String,
-                val password: String,
-                val email: String,
+                var password: String,
+                var email: String,
                 var balance: Number? = Decimal128.parse("50000.00"),
                 var enabled: Boolean? = false,
                 val timeStamp: LocalDateTime? = LocalDateTime.now(),
-                val roles: Set<Role>? = setOf(Role(ObjectId("5dd937401c9d440000fce615"), "MEMBER"))
+                val roles: Set<Role>? = setOf(Role(RoleType.MEMBER))
 )

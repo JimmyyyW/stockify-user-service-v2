@@ -2,6 +2,7 @@ package com.fdm0506.stocky.userservicev2.adaptor.web
 
 import com.fdm0506.stocky.userservicev2.adaptor.persistence.SharesRepository
 import com.fdm0506.stocky.userservicev2.application.port.`in`.UpdateUserSharesUseCase
+import com.fdm0506.stocky.userservicev2.application.service.EmailBuddyService
 import com.fdm0506.stocky.userservicev2.domain.model.UserShares
 import com.fdm0506.stocky.userservicev2.domain.response.UpdateSharesResponse
 import org.bson.types.Decimal128
@@ -12,16 +13,25 @@ import reactor.core.publisher.Mono
 
 @RestController
 class UserSharesRestController(val updateUserSharesUseCase: UpdateUserSharesUseCase,
-                               val sharesRepository: SharesRepository) {
+                               val sharesRepository: SharesRepository,
+                               val emailBuddyService: EmailBuddyService) {
 
     @PutMapping(value = ["/api/v2/users/shares/update"], produces = [MediaType.APPLICATION_JSON_VALUE])
     fun updateUserShares(@RequestBody request: UpdateSharesRequestResource): Mono<UpdateSharesResponse> {
         return updateUserSharesUseCase.updateHeldShares(request.toCommand())
+                .onErrorMap { t ->
+                    emailBuddyService.sendErrorEmail(t.localizedMessage)
+                    Exception(t.message)
+                }
     }
 
     @GetMapping(value = ["/api/v2/users/shares/all/{username}"], produces = [MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE])
     fun getSharesForUser(@PathVariable username: String): Mono<UserShares> {
         return sharesRepository.findByUser(username)
+                .onErrorMap { t ->
+                    emailBuddyService.sendErrorEmail(t.localizedMessage)
+                    Exception(t.message)
+                }
     }
 
 }

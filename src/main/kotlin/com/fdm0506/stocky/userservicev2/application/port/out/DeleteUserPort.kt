@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono
 @Component
 interface DeleteUserPort {
 
-    fun deleteUser(_id : Mono<ObjectId>): Mono<DeleteUserResponse>
+    fun deleteUser(_id : Mono<String>): Mono<DeleteUserResponse>
 
     fun deleteAllUserByUsername(username: Mono<String>): Mono<DeleteAllUserByUsernameResponse>
 }

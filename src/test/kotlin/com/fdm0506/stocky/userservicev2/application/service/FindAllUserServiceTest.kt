@@ -18,7 +18,7 @@ internal class FindAllUserServiceTest {
 
     private var port: FindUserPort = mock(FindUserPort::class.java)
     private var unit = FindUserService(port)
-    private val user: User = User(ObjectId("5e35b230bbf34d4de013f9da"),
+    private val user: User = User(ObjectId("5e35b230bbf34d4de013f9da").toHexString(),
             "name",
             "surname",
             "username",
@@ -28,7 +28,7 @@ internal class FindAllUserServiceTest {
             true,
             LocalDateTime.now())
 
-    private val user2: User = User(ObjectId("5e35b230bbf34d4de013f9da"),
+    private val user2: User = User(ObjectId("5e35b230bbf34d4de013f9da").toHexString(),
             "name2",
             "surname2",
             "username2",

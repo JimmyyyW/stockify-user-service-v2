@@ -34,6 +34,18 @@ class EmailBuddyService(config: GlobalConfig) {
                 .doOnError { err -> println(err.message + " | Check EmailBuddy running")}
                 .subscribe()
     }
+
+    fun sendErrorEmail(message: String): Disposable {
+        return webClient.post()
+                .uri("/error")
+                .accept(MediaType.APPLICATION_JSON)
+                .body(BodyInserters.fromValue(ErrorEmailRequest(target = "fdm0506stockify@gmail.com",
+                        message = message)))
+                .retrieve()
+                .bodyToMono(ErrorEmailResponse::class.java)
+                .doOnError { err -> println(err.message + " | Check Email buddy running") }
+                .subscribe()
+    }
 }
 
 @Data
@@ -54,4 +66,24 @@ data class ActivationEmailRequest(
         @JsonProperty("code")
         @JsonPropertyDescription("the code to append to activation link uri")
         val code: String
+)
+
+@Data
+@AllArgsConstructor
+data class ErrorEmailResponse(
+        @JsonProperty("details")
+        @JsonPropertyDescription("result of attempt to send registration email")
+        val details: String
+)
+
+@Data
+@AllArgsConstructor
+data class ErrorEmailRequest(
+        @JsonProperty("target")
+        @JsonPropertyDescription("result of attempt to send registration email")
+        val target: String,
+
+        @JsonProperty("message")
+        @JsonPropertyDescription("the message of the error")
+        val message: String
 )

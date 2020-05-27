@@ -36,6 +36,7 @@ class SecurityConfig(@Autowired val service: ReactiveUserDetailsService) {
                 .pathMatchers(HttpMethod.POST, "/register").permitAll()
                 .pathMatchers(HttpMethod.GET, "/api/v2/user/activate/**").permitAll()
                 .pathMatchers(HttpMethod.GET, "/api/v2/user/status/**").permitAll()
+                .pathMatchers(HttpMethod.GET, "/actuator/**").permitAll()
                 .anyExchange().authenticated()
                 .and()
                 .cors().configurationSource(corsConfigurationSource())

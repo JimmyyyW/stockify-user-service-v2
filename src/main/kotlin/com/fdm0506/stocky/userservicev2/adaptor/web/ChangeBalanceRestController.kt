@@ -2,6 +2,7 @@ package com.fdm0506.stocky.userservicev2.adaptor.web
 
 import com.fdm0506.stocky.userservicev2.application.port.`in`.IncreaseBalanceUseCase
 import com.fdm0506.stocky.userservicev2.application.port.`in`.ReduceBalanceUseCase
+import com.fdm0506.stocky.userservicev2.application.service.EmailBuddyService
 import com.fdm0506.stocky.userservicev2.domain.response.ChangeBalanceResponse
 import org.springframework.validation.annotation.Validated
 import org.springframework.web.bind.annotation.PutMapping
@@ -15,7 +16,8 @@ import javax.validation.Valid
 @RestController
 @Validated
 class ChangeBalanceRestController (val reduceBalanceUseCase: ReduceBalanceUseCase,
-                                   val increaseBalanceUseCase: IncreaseBalanceUseCase) {
+                                   val increaseBalanceUseCase: IncreaseBalanceUseCase,
+                                   val emailBuddyService: EmailBuddyService) {
 
     //TODO: changebalance by negative sum or decrease balance command??
     @PutMapping(value = ["api/v2/user/balance/reduce"])
@@ -23,6 +25,10 @@ class ChangeBalanceRestController (val reduceBalanceUseCase: ReduceBalanceUseCas
             : Mono<ChangeBalanceResponse> {
         //load user into context
         return reduceBalanceUseCase.reduceBalanceB(changeBalanceRequestResource.toReduceCommand(), principal)
+                .onErrorMap { t ->
+                    emailBuddyService.sendErrorEmail(t.localizedMessage)
+                    Exception(t.message)
+                }
 
     }
 
@@ -30,5 +36,9 @@ class ChangeBalanceRestController (val reduceBalanceUseCase: ReduceBalanceUseCas
     fun increaseBalance(@RequestBody @Valid @Validated changeBalanceRequestResourceNoSession: ChangeBalanceRequestResourceNoSession)
             : Mono<ChangeBalanceResponse> {
         return increaseBalanceUseCase.increaseBalance(changeBalanceRequestResourceNoSession.toIncreaseCommand())
+                .onErrorMap { t ->
+                    emailBuddyService.sendErrorEmail(t.localizedMessage)
+                    Exception(t.message)
+                }
     }
 }

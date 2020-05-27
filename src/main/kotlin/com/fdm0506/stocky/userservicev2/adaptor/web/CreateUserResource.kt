@@ -46,6 +46,6 @@ data class CreateUserResource(@Pattern(regexp = "^(?=.*[0-9])(?=.*[a-zA-Z])([a-z
 
     fun toCommand(): CreateUserUseCase.CreateUserCommand {
         return CreateUserUseCase.CreateUserCommand(
-                Mono.just(User(ObjectId(), this.name, this.surname, this.username, bCryptPasswordEncoder().encode(this.password), this.email)))
+                Mono.just(User(ObjectId().toHexString(), this.name, this.surname, this.username, bCryptPasswordEncoder().encode(this.password), this.email)))
     }
 }

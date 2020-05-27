@@ -10,7 +10,7 @@ internal class UserTest {
     @Test
     fun itConstructsValidUserObject() {
         //val roles: Set<Role> = setOf(Role(ObjectId(), "MEMBER"))
-        val actual = User(ObjectId(),
+        val actual = User(ObjectId().toHexString(),
                 "test",
                 "surname",
                 "usertest",

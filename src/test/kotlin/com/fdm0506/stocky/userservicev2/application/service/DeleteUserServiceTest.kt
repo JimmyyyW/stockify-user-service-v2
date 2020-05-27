@@ -18,7 +18,7 @@ internal class DeleteUserServiceTest {
 
     @Test
     internal fun validFindAllUserCommand_portCalledByService_ReturnsSuccess() {
-        val command = DeleteUserUseCase.DeleteUserCommand(Mono.just(ObjectId("5e35b230bbf34d4de013f9da")))
+        val command = DeleteUserUseCase.DeleteUserCommand(Mono.just("5e35b230bbf34d4de013f9da"))
         `when`(port.deleteUser(command.user))
                 .thenReturn(Mono.just(DeleteUserResponse("success", "5e35b230bbf34d4de013f9da")))
 

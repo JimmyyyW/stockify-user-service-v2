@@ -24,7 +24,7 @@ interface RxUserRepository : ReactiveMongoRepository<User, String> {
 
     fun findByNameRegex(regex: String?): Flux<User>
 
-    fun deleteBy_id(_id: ObjectId): Mono<DeleteUserResponse>
+    fun deleteBy_id(_id: String): Mono<DeleteUserResponse>
 
     fun findByUsername(username: String): Mono<User>
 

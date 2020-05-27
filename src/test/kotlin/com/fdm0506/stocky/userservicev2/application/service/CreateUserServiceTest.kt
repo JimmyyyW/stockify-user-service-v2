@@ -23,7 +23,8 @@ internal class CreateUserServiceTest {
     private var findPort: FindUserPort = mock(FindUserPort::class.java)
     private var activatePort: ActivateUserPort = mock(ActivateUserPort::class.java)
     private var unit = CreateUserService(savePort, findPort, activatePort)
-    private val user: User = User(ObjectId("5e35b230bbf34d4de013f9da"),
+    private val user: User = User(
+            "5e35b230bbf34d4de013f9da",
             "name",
             "surname",
             "username",

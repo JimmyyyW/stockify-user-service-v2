@@ -12,7 +12,7 @@ import javax.validation.constraints.NotNull
 @Data
 @RequiredArgsConstructor
 class DeleteUserResource {
-    fun toCommand(_id: ObjectId): DeleteUserUseCase.DeleteUserCommand {
+    fun toCommand(_id: String): DeleteUserUseCase.DeleteUserCommand {
         return DeleteUserUseCase.DeleteUserCommand(Mono.just(_id))
     }
 }

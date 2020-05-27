@@ -19,7 +19,7 @@ interface DeleteUserUseCase {
     fun deleteUserByUsername(command: DeleteUserByUsernameCommand): Mono<DeleteAllUserByUsernameResponse>
 
     @Getter
-    class DeleteUserCommand @JsonCreator constructor(@field:NotEmpty val user: Mono<ObjectId>) : SelfValidating<DeleteUserCommand>()
+    class DeleteUserCommand @JsonCreator constructor(@field:NotEmpty val user: Mono<String>) : SelfValidating<DeleteUserCommand>()
 
     @Getter
     class DeleteUserByUsernameCommand @JsonCreator constructor(@field:NotEmpty val username: Mono<String>) : SelfValidating<DeleteUserByUsernameCommand>()

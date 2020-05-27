@@ -1,6 +1,7 @@
 package com.fdm0506.stocky.userservicev2.adaptor.web
 
 import com.fdm0506.stocky.userservicev2.application.port.`in`.DeleteUserUseCase
+import com.fdm0506.stocky.userservicev2.application.service.EmailBuddyService
 import com.fdm0506.stocky.userservicev2.domain.response.DeleteAllUserByUsernameResponse
 import com.fdm0506.stocky.userservicev2.domain.response.DeleteUserResponse
 import org.bson.types.ObjectId
@@ -17,15 +18,20 @@ import reactor.core.publisher.Mono
 import javax.validation.Valid
 
 @RestController
-class DeleteUserRestController(private val deleteUserUseCase: DeleteUserUseCase) {
+class DeleteUserRestController(private val deleteUserUseCase: DeleteUserUseCase,
+                               private val emailBuddyService: EmailBuddyService) {
 
-    @DeleteMapping(value = ["api/v2/user/delete/{user_id}"], produces = [MediaType.APPLICATION_STREAM_JSON_VALUE])
-    fun deleteUserById(@RequestBody @Valid @Validated deleteUserResource: DeleteUserResource, @PathVariable user_id: ObjectId) : Mono<DeleteUserResponse> {
-        return deleteUserUseCase.deleteUser(deleteUserResource.toCommand(user_id))
+    @DeleteMapping(value = ["api/v2/user/delete/{id}"], produces = [MediaType.APPLICATION_STREAM_JSON_VALUE])
+    fun deleteUserById(@PathVariable id: String) : Mono<DeleteUserResponse> {
+        return deleteUserUseCase.deleteUser(DeleteUserResource().toCommand(id))
     }
 
     @DeleteMapping(value = ["api/v2/user/delete/username/{username}"], produces = [MediaType.APPLICATION_STREAM_JSON_VALUE])
-    fun deleteUserByUsername(@RequestBody @Valid @Validated deleteUserResource: DeleteUserByUsernameResource, @PathVariable username: String) : Mono<DeleteAllUserByUsernameResponse> {
-        return deleteUserUseCase.deleteUserByUsername(deleteUserResource.toCommand(username))
+    fun deleteUserByUsername(@PathVariable username: String) : Mono<DeleteAllUserByUsernameResponse> {
+        return deleteUserUseCase.deleteUserByUsername(DeleteUserByUsernameResource().toCommand(username))
+                .onErrorMap { t ->
+                    emailBuddyService.sendErrorEmail(t.localizedMessage)
+                    Exception(t.message)
+                }
     }
 }
